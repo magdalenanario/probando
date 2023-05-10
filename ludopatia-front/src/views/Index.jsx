@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import React, { useCallback, useEffect, useState } from "react";
 import tablero from "../imgs/tablero_inicio.jpg"
 import NavBar from '../components/NavBar'
-import Login from '../components/Login'
 
 const Index = () => {
     const navigate = useNavigate();
@@ -16,8 +15,6 @@ const Index = () => {
                     <img src={tablero}></img>
                     <div className="centrado">Ludopatía</div>
                 </div>
-                <div id="inicio-login">
-                    <Login />
                     {/* <div className="form">
                         <h2>Log in</h2>
                         <div className="item">
@@ -36,7 +33,6 @@ const Index = () => {
                         <p>¿No tienes cuenta?</p>
                         <button className="boton" onClick={() => { navigate('/Register') }}>Sign up</button>
                     </div> */}
-                </div>
             </section>
 
         </body >)
