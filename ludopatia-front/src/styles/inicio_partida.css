@@ -1,0 +1,104 @@
+section#section-one {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    margin: 20px;
+    height: 100%;
+    list-style: none;
+    flex-flow: row wrap;
+    flex-direction: row;
+}
+
+#tablero {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-size: cover;
+    height: 100%;
+}
+
+#imagen_tablero {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#lanzar_dado {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-size: cover;
+    height: 100%;
+}
+
+#cartas {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-size: cover;
+    height: 100%;
+}
+
+#dado {
+    background-image: url("../imgs/gif_dado.gif");
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+#elecciones {
+    display: flex;
+    flex-direction: column;
+}
+
+#elec_carta {
+    display: flex;
+    flex-direction: row;
+}
+
+#elec_ficha {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type=checkbox][disabled] {
+    outline: 1px solid grey;
+
+}
+
+input[type=checkbox] {
+    outline: 1px solid blue;
+
+}
+
+#jugador_rojo {
+    position: absolute;
+    top: 0%;
+    left: 17%;
+    z-index: 1;
+}
+
+#jugador_verde {
+    position: absolute;
+    top: 60%;
+    right: 17%;
+    z-index: 1;
+}
+
+#jugador_azul {
+    position: absolute;
+    top: 60%;
+    left: 17%;
+    z-index: 1;
+}
+
+#jugador_amarillo {
+    position: absolute;
+    top: 0%;
+    right: 17%;
+    z-index: 1;
+}

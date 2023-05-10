@@ -1,0 +1,147 @@
+#ficha_1_rojo {
+    position: absolute;
+    top: 11.5%;
+    left: 11.5%;
+    height: 35px;
+    width: 50px;
+    z-index: 1;
+}
+
+#ficha_2_rojo {
+    position: absolute;
+    top: 11.5%;
+    left: 22%;
+    height: 35px;
+    width: 50px;
+    z-index: 1;
+}
+
+#ficha_3_rojo {
+    position: absolute;
+    top: 22%;
+    left: 11.5%;
+    height: 35px;
+    width: 50px;
+    z-index: 1;
+}
+
+#ficha_4_rojo {
+    position: absolute;
+    top: 22%;
+    left: 22%;
+    height: 35px;
+    width: 50px;
+    z-index: 1;
+}
+
+#ficha_1_azul {
+    position: absolute;
+    bottom: 23%;
+    left: 11.5%;
+    height: 35px;
+    width: 50px;
+    z-index: 1;
+}
+
+#ficha_2_azul {
+    position: absolute;
+    bottom: 23%;
+    left: 22%;
+    height: 35px;
+    width: 50px;
+    z-index: 1;
+}
+
+#ficha_3_azul {
+    position: absolute;
+    bottom: 12.5%;
+    left: 11.5%;
+    height: 35px;
+    width: 50px;
+    z-index: 1;
+}
+
+#ficha_4_azul {
+    position: absolute;
+    bottom: 12.5%;
+    left: 22%;
+    height: 35px;
+    width: 50px;
+    z-index: 1;
+}
+
+#ficha_1_verde {
+    position: absolute;
+    bottom: 23%;
+    right: 22%;
+    height: 35px;
+    width: 50px;
+    z-index: 1;
+}
+
+#ficha_2_verde {
+    position: absolute;
+    bottom: 23%;
+    right: 11.5%;
+    height: 35px;
+    width: 50px;
+    z-index: 1;
+}
+
+#ficha_3_verde {
+    position: absolute;
+    bottom: 12.5%;
+    right: 22%;
+    height: 35px;
+    width: 50px;
+    z-index: 1;
+}
+
+#ficha_4_verde {
+    position: absolute;
+    bottom: 12.5%;
+    right: 11.5%;
+    height: 35px;
+    width: 50px;
+    z-index: 1;
+}
+
+#ficha_1_amarillo {
+    position: absolute;
+    top: 11.5%;
+    right: 22%;
+    height: 35px;
+    width: 50px;
+    z-index: 1;
+    filter: brightness(80%)
+}
+
+#ficha_2_amarillo {
+    position: absolute;
+    top: 11.5%;
+    right: 11.5%;
+    height: 35px;
+    width: 50px;
+    z-index: 1;
+    filter: brightness(80%)
+}
+
+#ficha_3_amarillo {
+    position: absolute;
+    top: 22%;
+    right: 22%;
+    height: 35px;
+    width: 50px;
+    z-index: 1;
+    filter: brightness(80%);
+}
+
+#ficha_4_amarillo {
+    position: absolute;
+    top: 22%;
+    right: 11.5%;
+    height: 35px;
+    width: 50px;
+    z-index: 1;
+    filter: brightness(80%)
+}

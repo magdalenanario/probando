@@ -1,0 +1,316 @@
+/* Caracteristicas generales */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eeee;
+    background-size: cover;
+}
+
+/* Navbar  */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(67, 135, 244);
+    position: static;
+    flex-flow: row wrap;
+}
+
+
+.navbar_izquierda {
+    display: flex;
+    align-items: center;
+    background-color: rgb(67, 135, 244);
+    flex-flow: row wrap;
+}
+
+.navbar img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: white;
+    float: left;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: rgba(3, 3, 106, 0.919);
+}
+
+.navbar_derecha {
+    display: flex;
+    background-color: rgb(67, 135, 244);
+    padding: 20px 20px;
+    font-weight: bold;
+    color: white
+}
+
+/* Pagina inicio */
+section#section-one {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    margin: 30px;
+    height: 100%;
+    list-style: none;
+    flex-flow: row wrap;
+}
+
+#tablero_inicio {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Impact;
+    color: rgb(67, 135, 244);
+    font-size: 90px;
+    background: rgb(0, 0, 0) transparent;
+}
+
+/* inicio-login */
+#inicio-login {
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 20px 50px;
+    background-color: white;
+    box-shadow: 7px 7px 10px grey;
+    border-radius: 9px;
+}
+
+#inicio-login .form .item input {
+    width: 200px;
+    border: 0;
+    border-bottom: 3px solid black;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+.boton {
+    border: 1px solid #2e518b;
+    padding: 10px;
+    width: 200px;
+    background-color: #2e518b;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+/* Nosotros */
+.us {
+    background-image: url("../imgs/Background.png");
+}
+
+section#section-nosotros {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+section#section-nosotros h1 {
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    border-radius: 3px;
+    animation: fadeIn linear 2s;
+}
+
+/* https://codepen.io/Weldebob/pen/WjMLavhttps://codepen.io/Weldebob/pen/WjMLav */
+section#section-nosotros .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    grid-template-rows: auto auto auto auto;
+    grid-column-gap: 1em;
+    grid-row-gap: 6px;
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+}
+
+.info {
+    margin: 25px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 7px 7px 10px grey;
+}
+
+.box {
+    display: flex;
+    width: 310px;
+    height: 310px;
+    border-radius: 20px;
+    border: 0.3em solid rgb(67, 135, 244);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #eeee;
+}
+
+.box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.box h3 {
+    margin: 5px;
+}
+
+.box p {
+    margin: 0px;
+    font-size: 15px;
+}
+
+
+/* Sacado de https://blog.hubspot.com/website/css-fade-in */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.info p {
+    text-align: center;
+}
+
+/* Acerca de  */
+.about {
+    background-image: url("../imgs/Background.png");
+}
+
+#section-acerca-de {
+    align-items: center;
+    display: flex;
+    padding-bottom: 10px;
+    width: 100%;
+    min-height: 100vh;
+    flex-flow: column wrap;
+}
+
+.acerca-de div {
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 7px 7px 10px grey;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+#section-acerca-de h1 {
+    margin-left: 50px;
+    animation: fadeIn linear 2s;
+    background-color: white;
+    border-radius: 3px;
+}
+
+/* Reglas */
+.rules {
+    background-image: url("../imgs/Background.png");
+}
+
+#section-reglas {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    width: 100%;
+    flex-flow: column wrap;
+    height: 100%;
+}
+
+.reglas div {
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 7px 7px 10px grey;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+#section-reglas h1 {
+    margin-left: 50px;
+    animation: fadeIn linear 2s;
+    background-color: white;
+    border-radius: 3px;
+}
+
+
+/* Preguntas frecuentes */
+.questions {
+    background-image: url("../imgs/preguntas1.jpg");
+}
+
+#section-preguntas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    width: 100%;
+    flex-flow: column wrap;
+}
+
+#section-preguntas h1 {
+    animation: fadeIn linear 2s;
+    background-color: white;
+    border-radius: 3px;
+
+}
+
+.preguntas {
+    height: 80vh;
+}
+
+.preguntas div {
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 7px 7px 10px grey;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+#Uno,
+#Dos,
+#Tres,
+#Cuatro,
+#Cinco {
+    display: None;
+}
