@@ -1,0 +1,56 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+
+.beneficiary-view-container {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 100vh;
+}
+
+.maintitle-div {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 5rem;
+}
+
+.basic-beneficiary-info-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.basic-beneficiary-info-div-right{
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.primaryview-data {
+  font-family: "Open Sans", serif;
+  font-size: 1.2rem;
+}
+
+.buttons-div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+/* Estilos de vistas secundarias */
+.secondaryview-maintitle{
+  margin: 2rem;
+}
+
+.data-secondaryview-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.secondaryview-data{
+  font-family: "Open Sans";
+  font-size: 1.2rem;
+}

@@ -1,0 +1,51 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+
+.users-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+  padding-top: 100px;
+}
+
+.users-page-container {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 100vh;
+}
+
+.users-content-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.users-options-container {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  align-items: center;
+}
+
+.user-list-container {
+  border: 0;
+  box-shadow: none;
+  margin-top: 40px;
+}
+
+.user-list-header {
+  color: rgb(94 77 77 / 100%);
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 10px;
+  border: 0;
+}
+
+.user-list-item {
+  background: #FFF;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+}

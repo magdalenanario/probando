@@ -1,0 +1,17 @@
+/* TopBar.css */
+
+.top-bar-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  position: absolute;
+  top: 35px;
+  right: 35px;
+}
+
+.top-bar-icons{
+  font-size: 38px;
+  cursor: pointer;
+}

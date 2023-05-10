@@ -1,0 +1,41 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+/* stylelint-disable selector-class-pattern */
+
+.date-picker-container .MuiOutlinedInput-root{
+  background-color: #FFFDFD;
+  border: 1px solid #F2A23F;
+  border-radius: 10px;
+  width: 385px;
+  height: 65px;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(0 0 0 / 38%);
+}
+
+.date-picker-container .MuiOutlinedInput-input {
+  color: rgb(0 0 0 / 38%);
+}
+
+.date-picker-container .MuiOutlinedInput-notchedOutline {
+  border-style: hidden;
+}
+
+.MuiSvgIcon-root {
+  color: rgb(219 149 54 / 100%);
+}
+
+.date-picker-label {
+  margin-left: 10px;
+  font-family: 'Open Sans', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #6a6666;
+}
+
+.date-picker-container {
+  display: flex;
+  flex-direction: column;
+}

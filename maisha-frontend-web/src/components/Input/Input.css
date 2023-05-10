@@ -1,0 +1,70 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+
+.text-container {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.label {
+  display: block;
+  margin-left: 10px;
+  font-family: 'Open Sans', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #6a6666;
+}
+
+.text-input {
+  display: block;
+  font-family: 'Open Sans', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(0 0 0 / 38%);
+  line-height: 24px;
+  background: #fffdfd;
+  border: 1px solid #f2a23f;
+  border-radius: 10px;
+  width: 383px;
+  height: 63px;
+  text-indent: 12px;
+  padding: 0;
+}
+
+.text-input:focus {
+  border-color: #f2a23f;
+  outline: 0;
+  box-shadow: 0 0 5px #f2a23f;
+}
+
+.select-input-container {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.select-input {
+  display: block;
+  font-family: 'Open Sans', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(0 0 0 / 38%);
+  line-height: 24px;
+  background: #fffdfd;
+  border: 1px solid #f2a23f;
+  border-radius: 10px;
+  width: auto;
+  height: 65px;
+}
+
+.select-input:focus {
+  border-color: #f2a23f;
+  outline: 0;
+  box-shadow: 0 0 5px #F2A23F;
+}
+
+.text-input::placeholder {
+  color: rgb(0 0 0 / 38%);
+}

@@ -1,0 +1,111 @@
+/* stylelint-disable selector-class-pattern */
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+
+#sidebar-list {
+  margin-left: 30px;
+}
+
+#sidebar-list .MuiButtonBase-root{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.MuiSvgIcon-root {
+  color: rgb(219 149 54 / 100%);
+}
+
+.MuiButtonBase-root .MuiListItemIcon-root {
+  min-width: 36px ;
+}
+
+.MuiButtonBase-root .MuiListItemText-root .MuiTypography-root {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6A6666;
+}
+
+.sidebar-container {
+  width: 224px;
+  height: auto;
+  background: #FFF;
+  box-shadow: 4px 0 4px rgb(0 0 0 / 25%);
+  align-items: center;
+}
+
+.img {
+  width: 146px;
+  height: 146px;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.user-name {
+  font-family: 'Open Sans', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #5E4D4D;
+  margin: 0;
+}
+
+.user-type {
+  font-family: 'Open Sans', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #999292;
+  margin-top: 5px;
+}
+
+.home-button {
+  position: absolute;
+  margin-left: 50px;
+  bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 115px;
+}
+
+.home-button-text {
+  font-family: 'Open Sans', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #6a6666;
+  margin-left: 10px;
+}
+
+.complete-sidebar {
+  display: flex;
+  flex-direction: row;
+}
+
+.close-sidebar-button {
+  margin-top: 50px;
+	background: white;
+	border: 0;
+  width: 23px;
+  height: 69px;
+  box-shadow: 4px 0 4px rgb(0 0 0 / 25%);
+  border-radius: 0 15px 15px 0;
+	cursor: pointer;
+}
+
+.close-sidebar-arrow {
+  position: relative;
+  right: 8px;
+}

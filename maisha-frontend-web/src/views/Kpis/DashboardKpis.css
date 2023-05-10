@@ -1,0 +1,8 @@
+/* DashboardKpis.css */
+
+.dashboard-kpis-view-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: auto;
+}

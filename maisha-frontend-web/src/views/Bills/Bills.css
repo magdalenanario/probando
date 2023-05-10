@@ -1,0 +1,28 @@
+/* stylelint-disable media-feature-range-notation */
+
+/* ajustar tamaño form a la pantalla sin cambiar su posicion */
+.form-bill {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.bills-view-container {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .form-bill {
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+  }
+}

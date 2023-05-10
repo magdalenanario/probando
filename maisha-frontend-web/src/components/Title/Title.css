@@ -1,0 +1,24 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+/* stylelint-disable font-family-name-quotes */
+
+.title-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.title-style {
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #F2A23F;
+  margin: 0;
+}
+
+.title-line{
+  margin-top: 10px;
+  width: 150px;
+  height: 0;
+  border: 2px solid #F2A23F;
+}

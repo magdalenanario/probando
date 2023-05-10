@@ -1,0 +1,19 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+
+.checkbox-style {
+  color: #f2a23f;
+}
+
+.checkbox-label {
+  font-family: 'Open Sans', serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(0 0 0 / 38%);
+  line-height: 24px;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

@@ -1,0 +1,8 @@
+/* Workshops.css */
+
+.workshops-view-container {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 100vh;
+}

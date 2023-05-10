@@ -1,0 +1,101 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+
+.primary-button{
+	color: white;
+	background-color: #F2A23F;
+	font-family: 'Open Sans';
+	font-size: 30px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 36px;
+	text-transform: uppercase;
+	border: 0;
+	border-radius: 5px;
+	padding: none;
+	cursor: pointer;
+	width: 268px;
+	height: 75px;
+}
+
+.primary-small-button{
+	color: white;
+	background-color: rgb(219 149 54 / 100%);
+	font-family: 'Open Sans';
+	font-weight: 500;
+	text-align: center;
+	font-size: 14px;
+	line-height: 19px;
+	border: 0;
+	border-radius: 5px;
+	padding: none;
+	cursor: pointer;
+	width: 120px;
+	height: 42px;
+}
+
+.primary-outlined-small-button {
+  background-color: white;
+  color: #f2a23f;
+  border: 1px solid #f2a23f;
+  border-radius: 5px;
+  width: 154px;
+  height: 35px;
+  font-family: 'Open Sans', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.secondary-button{
+	color: rgb(0 0 0 / 38%);
+	background-color: white;
+	font-family: 'Open Sans';
+	font-size: 24px;
+	font-weight: 500px;
+	line-height: 29px;
+	text-align: center;
+	text-transform: uppercase;
+	border: 0;
+	padding: none;
+	cursor: pointer;
+}
+
+.secondary-button:disabled {
+  color: #f2a23f;
+  cursor: default;
+}
+
+
+.secondary-small-button{
+	color: rgb(0 0 0 / 38%);
+	background-color: white;
+	font-family: 'Open Sans';
+	font-size: 17px;
+	font-weight: 500px;
+	line-height: 29px;
+	text-align: center;
+	text-transform: uppercase;
+	border: 0;
+	padding: none;
+	cursor: pointer;
+}
+
+.secondary-small-button:disabled {
+  color: #f2a23f;
+  cursor: default;
+}
+
+.line{
+	margin-top: 5px;
+	height: 0;
+	width: auto;
+	border: 1px solid #F2A23F;
+}
+
+.header {
+  width: auto;
+  text-align: center;
+}
